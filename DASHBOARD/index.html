@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Model visualization generated graph</title>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="css/1.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <script src="js/1.js"></script>
+    <script src="js/carousel.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</head>
+<body>
+    <nav style="z-index:9999;position: relative;">
+
+
+        <label for="btn" class="icon">
+            <span class="fa fa-bars"></span>
+        </label>
+        <input type="checkbox" id="btn">
+
+        <ul>
+            <li> <a class="active" href="index.html">Home</a></li>
+
+            <li> <a href="#">Classic Time Series Model</a>
+                <ul>
+                    <li><a href="AR%20VS%20ARIMA.html">AR VS ARIMA</a></li>
+                    <li><a href="VAR%20.html">VAR</a></li>
+
+                </ul>
+            </li>
+            <li><a href="#">Bayesian prediction model</a>
+                <ul>
+                    <li><a href="Bayesian%20AR.html">BAYESIAN AR</a></li>
+                    <li><a href="Bayesian%20VAR.html">BAYESIAN VAR</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </nav>
+
+    <div class="carousel" duration="6500">
+        <ul tabindex="0">
+            <li id="c1_slide1"><div>Display of classic multivariate results！<br/><a href="VAR%20.html">Learn more</a></div></li>
+            <li id="c1_slide2"><div>Comparison of univariate classical models！<br/><a href="AR%20VS%20ARIMA.html">Learn more</a></div></li>
+            <li id="c1_slide3"><div>Bayesian model visualization！<br /><a href="Bayesian%20VAR.html">Learn more</a></div></li>
+        </ul>
+        <ol>
+            <li><a href="#c1_slide1"></a></li>
+            <li><a href="#c1_slide2"></a></li>
+            <li><a href="#c1_slide3"></a></li>
+        </ol>
+        <div class="prev">&lsaquo;</div>
+        <div class="next">&rsaquo;</div>
+    </div>
+
+
+</body>
+</html>
